@@ -1,2 +1,8 @@
 Desarrollo de prueba de empresa.
 pruebas 01..
+instalar las extenciones para usar C# en visual code. 
+code --install-extension ms-dotnettools.csharp
+
+code --install-extension jmrog.vscode-nuget-package-manager
+ verificar 
+ code --list-extensions
