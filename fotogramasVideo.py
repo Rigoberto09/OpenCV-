@@ -92,8 +92,8 @@ def video_to_frames(video_path, frames_path, min_duration=10):
     print(f"Se han guardado {total_frames_to_capture} frames en {frames_path}.")
 
 # Rutas
-video_path = "video/normal.mp4"
-frames_path = "img/"
+video_path = "C:/Users/rborjas/OneDrive/Escritorio/Videos/normal.mp4"
+frames_path = "C:/Users/rborjas/OneDrive/Escritorio/Videos/img/"
 
 # Llama a la función para convertir el video a frames
 video_to_frames(video_path, frames_path, min_duration=10)

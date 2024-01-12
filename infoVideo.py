@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
-cap = cv2.VideoCapture("video/filtro.mp4")  # Cambia a la ruta de tu video
+cap = cv2.VideoCapture("C:/Users/rborjas/OneDrive/Escritorio/Videos/v1.mp4")  # Cambia a la ruta de tu video
 
 # DImenciones del video
 cap.set(3, 640)
@@ -39,5 +39,4 @@ while True:
 # Liberar la captura de video y cerrar todas las ventanas
 cap.release()
 #cerrar todas las ventasnas relacionas a este pryeto
-
 cv2.destroyAllWindows()
