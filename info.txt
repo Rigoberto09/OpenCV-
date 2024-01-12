@@ -6,3 +6,17 @@ code --install-extension ms-dotnettools.csharp
 code --install-extension jmrog.vscode-nuget-package-manager
  verificar 
  code --list-extensions
+
+
+desarrollo en python, 
+Crear entorno virtual 
+# app.py
+# Desarollo de API usando Flask
+
+# crear requerimientos de [pip freeze > requirements.txt]
+# instalar todos los requermientos de la app.py [pip install -r requirements.txt]
+
+# Correr el entorno virutal [./OpenCVframes/Scripts/activate]
+#Salir del entorno virtual [deactivate]
+
+# correr la app [python app.py]
